@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./css/index.css">
+   <title>Document</title>
+
+
+   <style>
+      .describe {
+         display: flex;
+         justify-content: center;
+         padding: 10px;
+         margin: 5px;
+
+      }
+
+      .describe p {
+         text-align: center
+      }
+
+
+      .weeklySchedule {
+         display: flex;
+         /* flex-direction: column; */
+         justify-content: space-around;
+         margin: 15px;
+      }
+
+
+
+      .bolt img {
+         height: 100px;
+      }
+   </style>
+</head>
+
+<body>
+
+
+   <nav>
+      <ul class="flexList">
+         <a href="./index.html">
+            <img src="https://cdn.sophia.org/markup_pictures/38768/file/1d4d870a6574cb95a2590a6eb4c836fe.png"
+               height="40px" alt="">
+         </a>
+         <div class="flexLinks">
+            <a class="sized" href="./Gallery.html">
+               <li class="space">Gallery</li>
+            </a>
+            <a class="sized" href="./About_us.html">
+               <li class="space">About us</li>
+            </a>
+            <a class="sized" href="">
+               <li class="space">Contact</li>
+            </a>
+         </div>
+      </ul>
+
+   </nav>
+
+
+   <header class="mainAligner">
+      <h2 class="fonter">
+         <span class="R">A</span>
+         <span class="G">B</span>
+         <span class="B">C</span> Fitess Studio - Who we
+         are
+      </h2>
+
+      <img src="https://cdn.sophia.org/markup_pictures/38336/file/d65e8d9096170dcc2ef3b8f46498e5f5.png" alt="">
+
+
+
+
+
+      <main class="describe">
+         <p>ABC Fitness Studio is a local fitness haven specializing in a diverse range of classes, including yoga,
+            Pilates, and Zumba, all geared toward promoting a healthy and active lifestyle. With a commitment to
+            well-being, it aims to provide its community with a welcoming space for physical and mental wellness.
+            Additionally, it offers a selection of high-quality fitness and training equipment to support its clients’
+            fitness journeys. In the absence of an online presence, it aspires to create a website that embodies its
+            values
+            of balance, harmony, and active living. Its target audience comprises local individuals seeking fitness and
+            holistic health solutions, and its primary goal is to enhance visibility; foster community connections; and
+            facilitate class inquiries, bookings, and equipment purchases.</p>
+      </main>
+   </header>
+
+
+
+
+   <section class="weeklySchedule">
+      <p class="hoursAndDays">Hours of Operation:
+
+         Monday–Friday: 6 a.m. to 8 p.m. <br>
+         Saturday: 8 a.m. to 6 p.m. <br>
+         Sunday: Closed</p>
+
+      <hr style="transform: rotate(8deg);">
+
+      <div class="bolt">
+         <img src="https://www.clker.com/cliparts/c/o/R/u/y/g/lightning-bolt.svg" alt="">
+      </div>
+   </section>
+</body>
+
+
+<script>
+   const R = document.querySelector('.R')
+   const G = document.querySelector('.G')
+   const B = document.querySelector('.B')
+
+   R.style.display = 'inline-block';
+   G.style.display = 'inline-block';
+   B.style.display = 'inline-block';
+
+
+
+   setInterval(() => {
+      const randX = Math.floor(Math.random() * innerWidth)
+      const randY = Math.floor(Math.random() * innerHeight)
+      R.style.color = `rgb(${randY}, ${randY}, 20)`;
+   }, 2000);
+
+   setInterval(() => {
+      const randX = Math.floor(Math.random() * innerWidth)
+      const randY = Math.floor(Math.random() * innerHeight)
+      G.style.color = `rgb(${randY}, ${randY}, 60)`;
+   }, 2200);
+   setInterval(() => {
+      const randX = Math.floor(Math.random() * innerWidth)
+      const randY = Math.floor(Math.random() * innerHeight)
+      B.style.color = `rgb(${randY}, ${randY}, 90)`;
+   }, 1000);
+</script>
+
+</html>

@@ -13,6 +13,28 @@
 }
 
 
+.galleryBtn{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin:15px
+}
+
+.galleryButton{
+   background-color: black;
+   color: yellow;
+   border-radius: 5px;
+   padding: 5px 15px;
+   font-weight: bold;
+   cursor: pointer;
+}
+
+.arrowGallery{
+   display: inline-block;
+   
+}
+
+
 .flex{
    display: flex;
 }
