@@ -13,12 +13,17 @@
 
 
 
+
+
+
    <nav>
       <ul class="flexList">
          <a href="./index.html">
             <img src="https://cdn.sophia.org/markup_pictures/38768/file/1d4d870a6574cb95a2590a6eb4c836fe.png"
                height="40px" alt="">
          </a>
+
+
          <div class="flexLinks">
             <a class="sized" href="./Gallery.html">
                <li class="space">Gallery</li>
@@ -35,8 +40,16 @@
    </nav>
 
 
+   <button class="cart-button" onclick="openCart()">View Cart</button>
    <section class="discounts bookers">
+
+
       <h2 class="sze">Book an appointment today</h2>
+
+
+
+
+
       <div class="gridding">
 
 
@@ -45,63 +58,78 @@
                src="https://cdn.sophia.org/markup_pictures/42774/file/634b3b3d8c54aab1a64132adeea9c52a.png" alt=""
                height="120px">
 
-            <span><span class="removeFromCart" class="circle" title="Remove from cart">-</span>Individual yoga session
-               <span class="addToCart" class="circle" title="Add to cart">+</span></span>
+            <span><span class="removeFromCart" class="circle" title="Remove from cart"
+                  onclick="updateCart('Individual yoga session', -1)">-</span>Individual yoga session
+               <span class="addToCart" class="circle" title="Add to cart"
+                  onclick="updateCart('Individual yoga session', 1)">+</span></span>
          </p>
 
 
          <p>
             <img src="https://cdn.sophia.org/markup_pictures/42775/file/bc68d12cfb597b5f58cfbeb8c5843635.png" alt="">
-            <span><span class="removeFromCart" class="circle" title="Remove from cart">-</span>Group yoga session <span
-                  class="addToCart" class="circle" title="Add to cart">+</span></span>
+            <span><span class="removeFromCart" class="circle" title="Remove from cart"
+                  onclick="updateCart('Group yoga session', -1)">-</span>Group yoga session <span class="addToCart"
+                  class="circle" title="Add to cart" onclick="updateCart('Group yoga session', 1)">+</span></span>
 
          </p>
          <p>
             <img src="https://cdn.sophia.org/markup_pictures/42776/file/f22a292d36f0b2b41a3745a11ea0f591.png" alt=""
                height="210px">
-            <span><span class="removeFromCart" class="circle" title="Remove from cart">-</span>Individual Pilates
-               session <span class="addToCart" class="circle" title="Add to cart">+</span></span>
+            <span><span class="removeFromCart" class="circle" title="Remove from cart"
+                  onclick="updateCart('Individual Pilates session', -1)">-</span>Individual Pilates
+               session <span class="addToCart" onclick="updateCart('Individual Pilates session', 1)" class="circle"
+                  title="Add to cart">+</span></span>
          </p>
 
          <p>
             <img src="https://cdn.sophia.org/markup_pictures/42777/file/589898c46344c79e7bd9e55d68793278.png" alt="">
-            <span><span class="removeFromCart" class="circle" title="Remove from cart">-</span>Group Pilates session
-               <span class="addToCart" class="circle" title="Add to cart">+</span></span>
+            <span><span class="removeFromCart" onclick="updateCart('Group Pilates session', -1)" class="circle"
+                  title="Remove from cart">-</span>Group Pilates session
+               <span class="addToCart" class="circle" onclick="updateCart('Group Pilates session', 1)"
+                  title="Add to cart">+</span></span>
 
          </p>
          <p>
             <img src="https://cdn.sophia.org/markup_pictures/42778/file/706f44533f12ec789dfd3ab6b9b93d5c.png" alt=""
                height="120px">
-            <span>Individual kickboxing session <span class="addToCart" class="circle"
-                  title="Add to cart">+</span></span>
+
+            <span>
+               <span class="removeFromCart" onclick="updateCart('Individual kickboxing session', -1)" class="circle"
+                  title="Remove from cart">-</span>Individual kickboxing session <span class="addToCart" class="circle"
+                  title="Add to cart" onclick="updateCart('Individual kickboxing session', 1)">+</span></span>
 
          </p>
          <p>
             <img src="https://cdn.sophia.org/markup_pictures/42779/file/a92541c50a423aaffda0d5cf5e5f07d0.png" alt=""
                height="120px">
-            <span><span class="removeFromCart" class="circle" title="Remove from cart">-</span>Group kickboxing session
-               <span class="addToCart" class="circle" title="Add to cart">+</span></span>
+            <span><span class="removeFromCart" onclick="updateCart('Group kickboxing session', -1)" class="circle"
+                  title="Remove from cart">-</span>Group kickboxing session
+               <span class="addToCart" class="circle" title="Add to cart"
+                  onclick="updateCart('Group kickboxing session', 1)">+</span></span>
 
          </p>
          <p>
             <img src="https://cdn.sophia.org/markup_pictures/42780/file/930ed399d8b2294942e3f956c817ac37.png" alt=""
                height="120px">
-            <span><span class="removeFromCart" class="circle" title="Remove from cart">-</span>Yoga mat <span
-                  class="addToCart" class="circle" title="Add to cart">+</span></span>
+            <span><span class="removeFromCart" class="circle" title="Remove from cart"
+                  onclick="updateCart('Yoga mat', -1)">-</span>Yoga mat <span class="addToCart" class="circle"
+                  title="Add to cart" onclick="updateCart('Yoga mat', 1)">+</span></span>
 
          </p>
          <p>
             <img src="https://cdn.sophia.org/markup_pictures/42781/file/4af41aa634480951c2b22fe56d655e51.png" alt=""
                height="120px">
-            <span><span class="removeFromCart" class="circle" title="Remove from cart">-</span>Water bottle <span
-                  class="addToCart" class="circle" title="Add to cart">+</span></span>
+            <span><span class="removeFromCart" onclick="updateCart('Water bottle', -1)" class="circle"
+                  title="Remove from cart">-</span>Water bottle <span class="addToCart" class="circle"
+                  onclick="updateCart('Water bottle', 1)" title="Add to cart">+</span></span>
 
          </p>
          <p>
             <img src="https://cdn.sophia.org/markup_pictures/42782/file/359682f2860ba4db370f01b54a6de5a0.png" alt=""
                height="120px">
-            <span><span class="removeFromCart" class="circle" title="Remove from cart">-</span>Tee shirt <span
-                  class="addToCart" class="circle" title="Add to cart">+</span></span>
+            <span><span class="removeFromCart" class="circle" title="Remove from cart"
+                  onclick="updateCart('Tee shirt', -1)">-</span>Tee shirt <span class="addToCart"
+                  onclick="updateCart('Tee shirt', 1)" class="circle" title="Add to cart">+</span></span>
 
          </p>
 
@@ -114,14 +142,24 @@
 
 
    <footer class="cartBtn">
-      <a href="">
-         <button class="cartNavBtn">
+      <a href="#">
+         <button class="cartNavBtn" onclick="openCart()">
             <span class="blank_circle"></span>
             <img src="https://www.freeiconspng.com/thumbs/cart-icon/basket-cart-icon-27.png" alt="Cart_icon."
                height="20px">
-            View shopping cart</button>
+            View shopping cart
+         </button>
       </a>
    </footer>
+
+   <div class="cart-overlay" id="cartOverlay" onclick="closeCart()"></div>
+   <div class="cart-modal" id="cartModal">
+      <h2>Your Cart</h2>
+      <ul id="cartItems"></ul>
+      <button onclick="clearCart()">Clear Cart</button>
+      <button onclick="processOrder()">Process Order</button>
+   </div>
+
 
 
    <script src="../js/tooltip.js"></script>
@@ -365,6 +403,9 @@
          $('#circle tspan').tooltipster();
       });
    </script>
+
+
+   <script src="../js/cart.js"></script>
 
 </body>
 
