@@ -1,0 +1,63 @@
+.bookers{
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   height:90vh
+}
+
+.cartBtn{
+   display: flex;
+   align-items: flex-end;
+   justify-content: flex-end;
+   margin:15px
+}
+
+
+.cartNavBtn{
+   padding: 10px 10px 10px 15px;
+   background-color: white;
+   color: #000;
+   border-radius: 5px;
+   font-weight: bold;
+   display: flex;
+   align-items: center;
+   gap:5px
+}
+
+.removeFromCart{
+   float: left;
+   display: flex;
+}
+
+.blank_circle{
+   position: absolute;
+   margin-bottom: 25px;
+   margin-left: -8px;
+   background-color: #000;
+   height: 13px;
+   width:13px;
+   border-radius: 50px;
+}
+
+
+
+.addToCart{
+   background-color: limegreen;
+   margin: 4px;
+   padding: .2px 4px;
+   border-radius: .3px;
+   cursor: pointer;
+}
+
+.removeFromCart{
+   background-color: red;
+   margin: 4px;
+   padding: .2px 4px;
+   border-radius: .3px;
+   cursor: pointer;
+}
+
+.cart-modal{
+   list-style:none;
+   padding: 30px;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "sophia_touchstone_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tooltip2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hagop420/Sophia_milestone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hagop420/Sophia_milestone/issues"
+  },
+  "homepage": "https://github.com/Hagop420/Sophia_milestone#readme",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
