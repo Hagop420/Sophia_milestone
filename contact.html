@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- i pad -->
+   <link rel="stylesheet" href="./Contact.css">
+   <link rel="stylesheet" href="./index.css">
+
+   <title>Contact Form | Riverview Haven Hotel</title>
+</head>
+
+<body>
+   <nav>
+      <ul class="flexList">
+         <a href="./index.html">
+            <img src="https://cdn.sophia.org/markup_pictures/38768/file/1d4d870a6574cb95a2590a6eb4c836fe.png"
+               height="40px" alt="">
+         </a>
+         <div class="flexLinks">
+            <a class="sized" href="./Gallery.html">
+               <li class="space">Gallery</li>
+            </a>
+            <a class="sized" href="./About_us.html">
+               <li class="space">About us</li>
+            </a>
+            <a class="sized" href="./contact.html">
+               <li class="space">Contact us</li>
+            </a>
+            <a class="sized" href="./custom.html">
+               <li class="space">Custom</li>
+            </a>
+         </div>
+      </ul>
+
+   </nav>
+
+   <h1 style='color:#000' class='contain'><span>Contact</span><span class="us">us</span></h1>
+
+   <form class='contain' action="process.php">
+      <label for="name">Name</label>
+      <input type="text" name="name" id="name">
+      <label for="last name">Last Name</label>
+      <input type="last name" name="name" id="last name">
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email">
+      <label for="msg">Message</label>
+      <textarea name="msg" id="msg" cols="50" rows="10"></textarea>
+
+
+
+      <button>Submit</button>
+   </form>
+
+
+
+   <!-- Contact section -->
+
+   <section id="features">
+      <div class="box">
+         <i class="fas fa-hotel fa-3x"></i>
+         <h3> Location</h3>
+         <p>50 Main st, Boston MA</p>
+      </div>
+      <div class="box">
+         <i class="fas fa-phone fa-3x"></i>
+         <h3>Phone</h3>
+         <p>818-555-5555</p>
+      </div>
+      <div class="box">
+         <i class="fas fa-envelope fa-3x"></i>
+         <div class="last-ch">
+            <h3>Email</h3>
+            <p>Frontdesk@ABCfitness.org</p>
+         </div>
+      </div>
+   </section>
+
+
+
+
+
+
+
+   <footer class='copyrightSection'>
+      <p>ABCfitness &copy; 2019, All Rights Reserved</p>
+   </footer>
+
+   </header>
+
+
+
+   <script>
+      console.log(window.innerWidth);
+
+
+      document.querySelector('a.active').style.background = '#444'
+      document.querySelector('a.active').style.color = '#f7c08a'
+   </script>
+</body>
+
+</html>
