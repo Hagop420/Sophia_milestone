@@ -1,0 +1,172 @@
+body {
+  background-color: black;
+ }
+ 
+ * {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+     'Lucida Sans', Arial, sans-serif;
+ }
+ 
+
+ 
+ .clr {
+   clear: both;
+ }
+ 
+ .py-1 {
+   padding: 30px;
+ }
+ 
+ .py-bott {
+   padding-top: 30px;
+ }
+ 
+ a {
+   text-decoration: none;
+ }
+ 
+ header {
+   background: #333;
+   overflow: auto;
+ }
+ 
+ .contain {
+   margin: auto;
+   color: #fff;
+   max-width: 1100px;
+   overflow: auto;
+ }
+ .containOppos {
+   min-height: 500px;
+ }
+ 
+ .contain h2 {
+   color: #fff;
+ }
+ 
+ header h2 {
+   float: left;
+   padding: 20px 20px;
+   font-size: 30px;
+ }
+ 
+ header h2.current {
+   background-color: aqua;
+ }
+ 
+ header ul {
+   float: right;
+   list-style: none;
+ }
+ 
+ header ul li {
+   float: left;
+   font-weight: bolder;
+ }
+ 
+ header ul li a {
+   display: block;
+   padding: 30px;
+   color: #fff;
+ }
+ 
+ /* IMPORTANT */
+ header ul li a:hover,
+ header ul li a.current {
+   background: #444;
+   color: #f7c08a;
+ }
+ 
+ #about-us-info {
+   background-color: rgb(244 244 244);
+   /* overflow: auto; */
+ }
+ 
+ #about-us-info h1 {
+   font-size: 35px;
+   font-weight: bold;
+ }
+ 
+ #about-us-info h1 span {
+   color: #f7c08a;
+ }
+ 
+ #about-us-info .info-left p {
+   width: 30%;
+   font-size: 20px;
+   min-height: 200%;
+   padding-top: 30px;
+   font-weight: 700;
+ }
+ 
+ #about-us-info .info-left img {
+   display: block;
+   margin: auto;
+   height: 320px;
+   position: relative;
+   bottom: 200px;
+   left: 100px;
+   border-radius: 50%;
+ }
+ 
+ section #main-img img {
+   background-size: cover;
+ }
+ 
+ /* testimonials */
+ 
+ #feedbackSection {
+   background-image: url('../test-bg.jpg');
+   /* background-position: center center; */
+   padding: 100px;
+   background-repeat: no-repeat;
+   height: 100%;
+   margin: -10px 0;
+ }
+ 
+ #feedbackSection h2 {
+   text-align: center;
+   margin: auto;
+   display: block;
+   font-size: 40px;
+   padding-top: 40px;
+   color: #fff;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ 
+ #feedbackSection .testimonial {
+   background-color: #f7c08a;
+   border-radius: 6px;
+   max-width: 50%;
+   padding: 10px;
+   overflow: auto;
+   opacity: 0.9;
+   margin: 50px auto;
+ }
+ 
+ .testimonial p {
+   /* text-align: center; */
+   margin: 20px auto;
+ }
+ 
+ .testimonial img {
+   border-radius: 50%;
+   height: 110px;
+   margin: auto 10px;
+   float: left;
+ }
+ 
+ .copyrightSection {
+   width: 100%;
+   background-color: #444;
+ 
+   text-align: center;
+   color: #fff;
+ }
+ footer p {
+   padding: 20px;
+ }
+ 

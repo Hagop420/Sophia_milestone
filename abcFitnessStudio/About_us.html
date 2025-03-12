@@ -34,6 +34,30 @@
       .bolt img {
          height: 100px;
       }
+
+      .order {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         /* justify-content: center; */
+
+
+
+      }
+
+
+
+
+
+
+
+
+
+      form label {
+         display: table-cell;
+         /* width: 1px; */
+         white-space: nowrap;
+      }
    </style>
 </head>
 
@@ -53,8 +77,8 @@
             <a class="sized" href="./About_us.html">
                <li class="space">About us</li>
             </a>
-            <a class="sized" href="">
-               <li class="space">Contact</li>
+            <a class="sized" href="./custom.html">
+               <li class="space">Custom</li>
             </a>
          </div>
       </ul>
@@ -105,6 +129,32 @@
          <img src="https://www.clker.com/cliparts/c/o/R/u/y/g/lightning-bolt.svg" alt="">
       </div>
    </section>
+
+
+
+   <section>
+      <form class="order" id="feedbackForm" action="post">
+         <h2 class="sze">create a custom order here</h2>
+         <!-- <div class="information_entry"> -->
+         <label for="name">First name</label>
+         <span>
+            <input class="pos" type="text" id="name" name="name" required>
+
+         </span> <!-- <br> -->
+         <label for="email">Email:</label>
+         <input type="email" id="email" name="email" required><br><br>
+
+         <label for="feedback">Ordered Item custom name/item:</label><br>
+         <textarea id="feedback" name="feedback" rows="4" required></textarea><br><br>
+
+         <button type="submit">Submit</button>
+         <!-- </div> -->
+
+
+         <h2 class="chase">Your Purchase(s)</h2>
+         <div id="storedData"></div>
+      </form>
+   </section>
 </body>
 
 
@@ -136,5 +186,6 @@
       B.style.color = `rgb(${randY}, ${randY}, 90)`;
    }, 1000);
 </script>
+<script src="../js/about_us.js"></script>
 
 </html>
