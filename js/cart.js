@@ -27,6 +27,7 @@ function updateCartView() {
    cartList.innerHTML = Object.keys(cart).length ? 
       Object.entries(cart).map(([item, quantity]) => `<li>${item} x${quantity}</li>`).join('') : 
       '<li>Cart is empty</li>';
+   localStorage.getItem('cartList')
 }
 
 function clearCart() {
