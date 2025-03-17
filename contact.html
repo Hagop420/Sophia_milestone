@@ -92,6 +92,35 @@
 
 
 
+   <script>
+      document.addEventListener("DOMContentLoaded", function () {
+         document.querySelector("form").addEventListener("submit", function (event) {
+            event.preventDefault(); // Prevent form submission
+
+            // Capture form data
+            let contactData = {
+               firstName: document.getElementById("name").value.trim(),
+               lastName: document.getElementById("last name").value.trim(),
+               email: document.getElementById("email").value.trim(),
+               message: document.getElementById("msg").value.trim()
+            };
+
+            // Store data in localStorage
+            localStorage.setItem("contactFormData", JSON.stringify(contactData));
+
+            // Show confirmation message
+            alert(`Thank you, ${contactData.firstName}! Your message has been saved.`);
+
+            // Optionally, clear the form fields
+            this.reset();
+         });
+      });
+
+   </script>
+
+
+
+
 </body>
 
 </html>
