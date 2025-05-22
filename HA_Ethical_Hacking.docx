@@ -1,0 +1,46 @@
+Section 1.5 questions
+
+1. What program provides an overview of four major system resources?  
+-Resource Monitor
+
+ 
+2. In the Performance Monitor, what can you change if the reading on the graph is 
+too high to display within the graph window? 
+-Scale
+
+
+
+
+
+
+Section 2.4 questions
+
+
+
+1. What type of event is caused by applications or hardware from which the system 
+is not able to recover?  
+-Critical events
+ 
+2. What does an Audit Failure event usually indicate? 
+ -Failed login attempts
+
+3. What type of event indicates a successful login attempt? 
+-Audit success
+
+
+
+
+Section 3.5 questions
+
+
+
+
+
+1. Updates to device drivers are classified as what type of update? 
+-Recommended Updates 
+ 
+2. A Service Pack is classified as what type of update? 
+ -Important Update
+
+3. What category in the Control Panel is Windows Update located? 
+-The System and Security

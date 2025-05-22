@@ -1,154 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./index.css">
-  <title>ABC Fitness Studio - Home</title>
-</head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Google Fonts  -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Markazi+Text&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
 
+
+
+
+
+
+      <!-- normalize cdn -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+
+
+
+      
+      <!-- Font Awesome -->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+
+      <!-- CSS link -->
+      <link rel="stylesheet" href="../css/styles.css">
+   <title>Document</title>
+   
+</head>
 <body>
 
-  <nav>
-    <ul class="flexList">
-      <a href="./index.html">
-        <img src="https://cdn.sophia.org/markup_pictures/38768/file/1d4d870a6574cb95a2590a6eb4c836fe.png" height="40px"
-          alt="">
-      </a>
-      <div class="flexLinks">
-        <a class="sized" href="./Gallery.html">
-          <li class="space">Gallery</li>
-        </a>
-        <a class="sized" href="./About_us.html">
-          <li class="space">About us</li>
-        </a>
-        <a class="sized" href="./contact.html">
-          <li class="space">Contact us</li>
-        </a>
-        <a class="sized" href="./custom.html">
-          <li class="space">Custom</li>
-        </a>
+   <header>
+<h1>THE CODE REVIEW</h1>
+   </header>
+
+
+   <div class="container">
+      <div class="section-1">
+         <h2>Signup for our newsletter</h2>
+         <p class="get_p">
+            Get the latest news on how your code is doing right in your inbox
+         </p>
       </div>
-    </ul>
+     <div class="border"></div>
 
-  </nav>
+      <div class="section-2">
 
-  <header class="mainAligner">
-    <h2 class="fonter">ABC Fitess Studio</h2>
+        
+         
+         
+         
+         
+         
+         
+         
+         
+          
+         <form method="POST">
+            
+            <fieldset class="contct_info">
+               <legend>
+                  Contact information
+               </legend>
+               <div class="input-flex">
+               <fieldset>
+                  
+               <label for="Full_name" class="f_n">Full Name</label>
+              
+               <input id="Full_name" name="fullName" type="text" placeholder="Required" >
+   
+   
+              
+               <label for="Email_address" class="em"  id="Email">Email Adress</label>
+              
+               <input name="email" id="Email_address" type="email" placeholder="Required" required>
+   
+   
+               
+                  <label for="telephone" class="ph">Phone Number</label>
+               
+               <input id="telephone" type="tel" name="tel">
+   
+   
+               
+                  <label for="addy" class="s_a">Street adress</label>
+               
+               <input id="addy" type="text" name="address">
+   
+   
+               
+               <label for="city" class="citt" >City</label>
+   
+                       
+              <input id="city" type="text" name="city">
+   
+   
+             
+               <label for="state" class="state_class">State</label>
+               
+              
+              <select name="st" id="state">
+               <option value="AL">Alabama</option>
+      <option value="AK">Alaska</option>
+      <option value="AZ">Arizona</option>
+      <option value="AR">Arkansas</option>
+      <option value="CA">California</option>
+      <option value="CO">Colorado</option>
+      <option value="CT">Connecticut</option>
+      <option value="DE">Delaware</option>
+      <option value="DC">District Of Columbia</option>
+      <option value="FL">Florida</option>
+      <option value="GA">Georgia</option>
+      <option value="HI">Hawaii</option>
+      <option value="ID">Idaho</option>
+      <option value="IL">Illinois</option>
+      <option value="IN">Indiana</option>
+      <option value="IA">Iowa</option>
+      <option value="KS">Kansas</option>
+      <option value="KY">Kentucky</option>
+      <option value="LA">Louisiana</option>
+      <option value="ME">Maine</option>
+      <option value="MD">Maryland</option>
+      <option value="MA">Massachusetts</option>
+      <option value="MI">Michigan</option>
+      <option value="MN">Minnesota</option>
+      <option value="MS">Mississippi</option>
+      <option value="MO">Missouri</option>
+      <option value="MT">Montana</option>
+      <option value="NE">Nebraska</option>
+      <option value="NV">Nevada</option>
+      <option value="NH">New Hampshire</option>
+      <option value="NJ">New Jersey</option>
+      <option value="NM">New Mexico</option>
+      <option value="NY">New York</option>
+      <option value="NC">North Carolina</option>
+      <option value="ND">North Dakota</option>
+      <option value="OH">Ohio</option>
+      <option value="OK">Oklahoma</option>
+      <option value="OR">Oregon</option>
+      <option value="PA">Pennsylvania</option>
+      <option value="RI">Rhode Island</option>
+      <option value="SC">South Carolina</option>
+      <option value="SD">South Dakota</option>
+      <option value="TN">Tennessee</option>
+      <option value="TX">Texas</option>
+      <option value="UT">Utah</option>
+      <option value="VT">Vermont</option>
+      <option value="VA">Virginia</option>
+      <option value="WA">Washington</option>
+      <option value="WV">West Virginia</option>
+      <option value="WI">Wisconsin</option>
+      <option value="WY">Wyoming</option>
+              </select>
+   
+             
+               <label for="zip" class="zip_class">
+                  Zip Code
+                 </label>
+             
+              <input id="zip" type="text">
+              </fieldset>
+             </div>
+             </fieldset>
+            
+           </form>
+           
+           <hr class="news_hr">
 
-    <img src="https://cdn.sophia.org/markup_pictures/38336/file/d65e8d9096170dcc2ef3b8f46498e5f5.png" alt="">
+
+           <fieldset class="newsletter_field">
+           <legend>
+              <h2 class="news">Newsletter</h2>
+              </legend>
+              <p class="newsletter_slct">
+                 Select the newsletters you would like to recieve
+              </p>
+              
+
+<input type="checkbox" name="chk" id="check_html" checked value="HTML" class="check-1">
+<label for="check_html" >HTML News</label>
+<input type="checkbox" class="check-2" name="chk" id="check_css" value="CSS">
+<label for="check_css">CSS News</label>
+<input type="checkbox" class="check-3" name="chk" id="check_JS" value="JS" >
+<label for="check_JS">JavaScript News</label>
 
 
 
 
 
-    <p class="sze">we focus on</p>
-  </header>
+
+  
 
 
 
-  <section>
-    <div class="imageryFitnessGoals">
-      <img src="https://cdn.sophia.org/markup_pictures/38758/file/0a17ccbd07197ba19e722649c78a4c36.png" height="40px"
-        alt="">
-      <!-- <span>dls;;dls</span> -->
-      <img src="https://cdn-icons-png.flaticon.com/512/1177/1177708.png" alt="" height="40px">
-      <!-- <span>fkndsl</span> -->
-      <img src="https://cdn0.iconfinder.com/data/icons/gym-line/492/3323_-_Boiled_Egg-512.png" alt="" height=" 40px">
-      <!-- <span>clean eating</span> -->
-    </div>
-  </section>
+ 
+<p class="N_format">
+   Newsletter format
+ </p>
 
-  <section>
-    <div class="description">
-      <span class="traits">Strength✅</span>
-      <span class="traits">Health✅</span>
-      <span class="traits">Meal
-        Plans✅</span>
-    </div>
-  </section>
+
+<input checked type="radio" name="rad-k" id="r2" ><label>HTML</label>
+<input type="radio" name="rad-k" id="r3"><label>Plain text</label>
 
 
 
-  <section class="discounts">
-    <p class="sze">items 10% off indefinatelly</p>
-    <div class="gridding">
-
-
-      <p>
-        <img class="weights" src="https://pngimg.com/d/gym_equipment_PNG86.png" alt="" height="120px">
-        <a href="https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=weights&storeId=15108&catalogId=12301&langId=-1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&selectedStore=1223"
-          target="blank">
-          <button>Shop Weights</button>
-        </a>
-      </p>
-
-
-      <p>
-        <img
-          src="https://static.vecteezy.com/system/resources/previews/017/261/066/non_2x/3d-gym-equipment-free-png.png"
-          alt="">
-        <a href="https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=gym%20machines&storeId=15108&catalogId=12301&langId=-1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&selectedStore=1223"
-          target="blank">
-          <button>Shop Machines</button>
-        </a>
-
-      </p>
-      <p>
-        <img src="https://pngimg.com/d/gym_equipment_PNG23.png" alt="" height="210px">
-        <a href="https://www.dickssportinggoods.com/f/elliptical-machines?enteredSearchTerm=Elliptical%20Machines&SearchType=Category"
-          target="blank">
-          <button>Shop Eliptical(s)</button>
-        </a>
-      </p>
-
-      <p>
-        <img
-          src="https://cdn3d.iconscout.com/3d/premium/thumb/protein-jar-3d-icon-download-in-png-blend-fbx-gltf-file-formats--gym-bottle-fitness-healthy-and-workout-pack-icons-7962506.png?f=webp"
-          alt="">
-        <a href="https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=protein&storeId=15108&catalogId=12301&langId=-1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&selectedStore=1223"
-          target="blank">
-          <button>Shop Protein</button>
-        </a>
-
-      </p>
-      <p>
-        <img
-          src="https://cdn3d.iconscout.com/3d/premium/thumb/steroid-3d-icon-download-in-png-blend-fbx-gltf-file-formats--drug-doping-supplement-injection-syringe-fitness-gym-diet-pack-icons-6773793.png?f=webp"
-          alt="" height="120px">
-        <a href="https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=bcaas&storeId=15108&catalogId=12301&langId=-1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&selectedStore=1223"
-          target="blank">
-          <button>Shop BCA recovery shots</button>
-        </a>
-
-      </p>
-
-      <p>
-        <img
-          src="https://cdn3d.iconscout.com/3d/premium/thumb/energy-pills-3d-icon-download-in-png-blend-fbx-gltf-file-formats--endorsement-steroid-tablets-athlete-drugs-gym-and-fitness-pack-icons-6635152.png?f=webp"
-          alt="">
-        <a href="https://www.dickssportinggoods.com/search/SearchDisplay?searchTerm=workout%20supplements&storeId=15108&catalogId=12301&langId=-1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&fromPage=Search&searchSource=Q&pageView=&beginIndex=0&DSGsearchType=Keyword&pageSize=48&selectedStore=1223"
-          target="blank">
-          <button>Shop supplements</button>
-        </a>
-
-      </p>
-    </div>
-
-  </section>
+<div class="wrapper">
+   <label for="TA_2" class="topics">
+         Other topics you'd <span class="ab">like to hear about</span>
+   </label>
 
 
 
-  <section class="galleryBtn">
-    <a href="./Gallery.html">
-      <button class="galleryButton">Our Gallery <span class="arrowGallery">➜</span></button>
-    </a>
-  </section>
+<div class="pos">
+<textarea class="d_t_t_a " 
+name="TA-2" id="TA_2" cols="36" rows="5"></textarea>
+
+
+<button class="main_subit_btn" type="submit">
+   Sign Up
+</button>
+</div>
+
+</div>
+
+
+<p class="copy">Copyright The code review</p>
+         <!-- </form> -->
+        
+      </fieldset>
+      
+      
+      </div>
+      
+      
+      </div>
+      
+      <!-- </div>
+   </div>
+   </div> -->
+   
+   
+
+
+
+   <div class="_ios" style="margin-bottom: 100px;"></div>
+   <div class="bottom" style="margin-bottom: 100px;"></div>
+   
 
 
 
 
 </body>
-
 </html>

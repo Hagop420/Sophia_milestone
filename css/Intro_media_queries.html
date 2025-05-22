@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+   <title>Media que.</title>
+
+   <style>
+      body{
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         background-color: aqua;
+
+      }
+      div h1{
+         text-align: center;
+         padding-top: 100px;
+         color: cornsilk;
+
+      }
+
+      div h1{
+            display: none;
+         }
+
+      /* max with=600px happens when screen is big till 600px hit and min with happens when screen is narrowed to 600px */
+
+
+       /* anything below 400px fires  */
+  
+         /* greater than 248px */
+       @media(min-width: 248px) and 
+        /* less than 499px */
+       (max-width: 499px){
+         body{
+            background-color: aliceblue;
+         }
+
+         .box-0 h1{
+            display: block;
+            color:#000
+         }
+       }
+
+
+       @media(min-width: 500px) and 
+        /* less than 499px */
+       (max-width: 670px){
+         body{
+            background-color: red;
+         }
+
+         .box-1 h1{
+            display: block;
+            color:black
+         }
+       }
+
+
+       @media(min-width: 671px) and 
+        /* less than 499px */
+       (max-width:767px){
+         body{
+            background-color: lime;
+         }
+
+
+         .box_normal h1{
+            display:block;
+            color:#000
+         }
+      }
+
+
+       @media(min-width: 768px) and 
+        /* less than 499px */
+       (max-width: 1024px){
+         body{
+            background-color: blue;
+         }
+
+         .box-2 h1{
+            display: block;
+            color: #000;
+         }
+       }
+       @media(min-width: 1025px){
+
+       body{
+          background-color: #000;
+       }
+
+         .box-3 h1{
+            display: block;
+            color: yellow;
+         }
+      }
+       
+      
+      
+      
+     
+
+   /* Below 450px backgrnd is */
+
+
+
+
+/* 
+@media(min-width:500px) and (max-width:768px){
+   body{
+      background-color: blue;
+
+   }
+
+
+   .box-2 h1{
+    display: block;
+   }
+} */
+   
+
+   </style>
+</head>
+<body>
+
+  
+   <div class="box-0"><h1>Small AF</h1></div>
+   <div class="box-1"><h1>Smartphone</h1></div>
+   <div class="box-2"><h1>Tablet</h1></div>
+   <div class="box_normal"><h1>Normal</h1></div>
+   <div class="box-3"><h1>Widescreen</h1></div>
+  
+ <script>
+    console.log(document.all[14].className);
+ </script>
+   
+</body>
+
+
+
+<script>
+
+//    const poo=document.querySelectorAll('div h1')
+
+//    const no=Array.from(poo)
+
+//   no.forEach(oop=>{
+//      console.log(oop.innerHTML);
+//      oop.addEventListener('mousemove' , (e)=>{
+//         console.log(`Min-width: ${e.offsetX}`);
+//      })
+//   })
+
+  
+
+
+</script>
+</html>

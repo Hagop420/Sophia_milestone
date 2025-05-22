@@ -1,0 +1,85 @@
+/* @media (min-width: 499px) and (max-width: 767px) { */
+body {
+  display: block;
+  margin: auto;
+}
+
+.contain h2 {
+  float: none;
+  text-align: center;
+}
+
+header ul,
+header ul li {
+  float: none;
+  text-align: center;
+}
+
+body h1 {
+  display: block;
+  text-align: center;
+  color: green;
+}
+
+header ul li a {
+  padding: 5px;
+}
+
+form label {
+  margin-left: 90px;
+}
+/* header ul li a:hover,
+header ul li a.current {
+  background: red;
+  color: #f7c08a;
+} */
+
+form input {
+  display: block;
+  margin: auto;
+}
+
+form textarea {
+  display: block;
+
+  margin-left: 50px;
+}
+
+form button {
+  display: block;
+  padding: 15px;
+  margin: 15px auto;
+  border: 0;
+  background: #333;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.box {
+  height: 180px;
+  float: none;
+  width: 100%;
+  padding: 0;
+  margin: -20px 0;
+}
+
+.box i {
+  margin: 30px 0;
+}
+
+section h3 {
+  margin: 15px 0;
+}
+
+.box .last-ch {
+  margin: -19px 0;
+}
+
+.box p {
+  margin: -13px 0;
+}
+
+footer {
+  background: #333;
+}

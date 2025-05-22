@@ -1,0 +1,59 @@
+@media (max-width: 500px) {
+  .flex-row {
+    display: flex;
+    background: #fff;
+    height: 20vh;
+    margin-top: 10%;
+    align-items: center;
+  }
+
+  p {
+    background: #f4f4f4;
+    padding: 5px 10px;
+    cursor: pointer;
+    position: relative;
+    bottom: 40px;
+    /* letter-spacing: 3.2rem; */
+    left: 60px;
+    font-size: 0.9rem;
+    margin: auto 20px;
+  }
+
+  #B {
+    margin-left: 330px;
+  }
+
+  ul {
+    margin: 0 -800px;
+    margin-top: 500px;
+    display: flex;
+  }
+  ul li {
+    padding: 10px 10px;
+  }
+
+  button {
+    margin-top: 500px;
+    margin-left: 700px;
+    padding: 20px 30px;
+    text-align: center;
+    font-size: 18px;
+  }
+}
+
+/* <div id="B">
+   <p>6</p>
+   </div>
+
+ <div id="C">
+   <p>7</p>
+   </div>
+<div id="D">
+   <p>8</p>
+   </div>
+<div id="E">
+   <p>9</p>
+   </div>
+<div id="F">
+   <p>0</p>
+   </div>  */

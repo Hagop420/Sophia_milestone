@@ -1,0 +1,507 @@
+::-webkit-scrollbar {
+   width: 20px;
+ }
+ 
+
+  
+ ::-webkit-scrollbar-thumb {
+   background: #fff; 
+   border-radius: 10px;
+ }
+ 
+ ::-webkit-scrollbar-thumb:hover {
+   background: #fff; 
+ }
+
+*{
+   font-family: 'Roboto Slab', serif;
+  /* overflow-x: hidden; */
+}
+
+.section-1>p{
+   color:rgb(164, 167, 167)
+}
+#main-form{
+   margin:auto;
+   text-align: center;
+}
+
+html{
+   overflow-x: hidden;
+}
+
+
+header>h1{
+   margin-top: 0;
+   margin:auto;
+text-align: center;
+  
+   padding-left: 100px;
+   justify-content: center;
+   font-family: 'Markazi Text', serif;
+   background-color: rgb(44, 59, 71);
+   color:#fff;
+   padding:15px;
+   width:91.9%;
+}
+
+.contact-leg>h2{
+   padding: 2px 12px;
+}
+
+header{
+width:100%;
+max-width: 100%;
+   margin:auto
+}
+.contact-leg>h1{
+   width: 100%;
+}
+.section-1{
+padding: 1rem;
+   margin:auto;
+   text-align: center;
+}
+.section-1>p{
+
+margin-left: 5px;
+}
+
+.border-1{
+   text-align: center;
+   height:auto;
+   margin: auto;
+   display: block;
+   margin-top: 15px;
+   border-bottom:2px solid rgb(44, 59, 71);
+   padding:2.5px;
+  
+   width:95%;
+   border-top: 4px solid rgb(44, 59, 71);
+}
+
+fieldset{
+   border:none
+}
+fieldset>label[for=full_name],
+fieldset>label[for=full_email],
+fieldset>label[for=phone],
+fieldset>label[for=enter_city],
+fieldset>label[for=home_address],
+fieldset>select+label,
+label[for=pick_state_origin]{
+   color:rgb(50, 50, 50);
+   text-align: left;
+}
+fieldset>input[id=full_name],
+fieldset>input[id=full_email],
+fieldset>input[id=phone],
+fieldset>input[id=enter_city],
+fieldset>input[id=home_address],
+fieldset>select[id=pick_state_origin]{
+   border:0;
+   background: rgb(229, 233, 233);
+   display: block;
+   width:90%;
+   margin:auto;
+   border-radius: 5px;
+   padding: 15px;
+   margin-bottom: 15px;  
+}
+input[id=zip_code]{
+   margin-top: 1.4rem !important;
+
+   border:0;
+   background: rgb(229, 233, 233);
+   display: block;
+   width:50%;
+   padding: 15px 1rem;
+   margin-left: 5px;
+   /* margin:auto; */
+   border-radius: 5px;
+   padding: 15px;
+
+   
+}
+label[for=zip_code]{
+   margin-top: 25px;
+   text-align: right;
+   display: flex;
+   align-items: center;
+
+   
+}
+
+input[id=zip_code]:focus{
+   border: solid 4px rgb(37, 99, 122);
+   transition-duration: .5s;
+    outline:none; box-shadow:none;
+  
+}
+
+
+fieldset>select[id=pick_state_origin]{
+   /* max-width: 100%; */
+   color:rgb(129, 134, 134);
+padding:15px .5rem;
+   width:100%;
+   
+}
+
+hr{
+   padding: 1.7px;
+   margin:20px 10px;
+   background-color: rgb(44, 59, 71);
+   border:none;
+   
+
+
+}
+
+::placeholder{
+   padding-right: 3px;
+  text-align: right;
+  font-style: italic;
+}
+
+
+
+.newsletter_fieldset>input[type=checkbox]+label {
+  position: relative;
+  bottom: 17px;
+  text-align: left;
+
+
+}
+.newsletter_fieldset>input[type=checkbox] {
+   display: flex;
+align-items: flex-start;  
+justify-content: center;
+ width: 30px;
+
+
+}
+
+.HTML{
+   margin-right: 180px !important;
+}
+.CSS{
+   margin-right: 195px !important;
+}
+.JS{
+   margin-right: 155px !important;
+}
+
+/* radios */
+.newsletter_fieldset>input[type=radio]+label {
+   position: relative;
+   bottom: 17px;
+   text-align: left;
+ 
+ 
+ }
+ .newsletter_fieldset>input[type=radio] {
+    display: flex;
+ align-items: flex-start;  
+ justify-content: center;
+  width: 30px;
+ 
+ 
+ }
+
+
+ .CSS-radio{
+   margin-right: 195px !important;
+}
+.JS-radio{
+   margin-right: 155px !important;
+}
+
+
+
+.top-form-part{
+   margin-bottom: 5px;
+   display: block;
+    width: 97%; 
+}
+
+/* SPECIAL SELEECT  WIDTH */
+
+fieldset>select[id=pick_state_origin]{
+   width: 97%;
+}
+fieldset>label[for=full_name],
+fieldset>label[for=full_email],
+fieldset>label[for=phone],
+fieldset>label[for=enter_city],
+fieldset>label[for=home_address],
+fieldset>label[for=pick_state_origin]{
+ 
+   padding-bottom: 15px;
+   display: block;
+   
+}
+
+
+
+
+
+
+
+fieldset>input[id=full_name]:focus,
+fieldset>input[id=full_email]:focus,
+fieldset>input[id=phone]:focus,
+fieldset>input[id=enter_city]:focus,
+fieldset>input[id=home_address]:focus,
+fieldset>select[id=pick_state_origin]:focus{
+   border: solid 4px rgb(37, 99, 122);
+   transition-duration: .5s;
+    outline:none; box-shadow:none;
+   
+}
+
+textarea{
+   width: 100%;
+   border:none;
+   background: rgb(229, 233, 233);
+border-radius: 5px;
+   display: block;
+   justify-content: center;
+   margin-bottom: 15px !important;
+   margin-top: 15px;
+   margin: auto;
+}
+
+.NN_format{
+   display:flex;
+   margin: 19px 5px;
+}
+
+
+button[type=submit]{
+   padding: 25px 0;
+   width: 100%;
+   background-color: rgb(50, 203, 171);
+   margin: auto;
+   position: relative;
+   /* top: 5px; */
+   border-radius: 5px;
+   display: block;
+   border: 0;
+   color: rgb(255 255 255);
+   font-size: 24px;
+   margin-top: 30px;
+}
+
+
+.copy{
+color:rgb(170, 175, 175);
+font-style:italic ;
+   text-align: center;
+   padding: .4rem;
+   margin-bottom: 180px;
+}
+
+.newsletter_fieldset>p.copy{
+   text-align: center;
+}
+
+.newsletter_fieldset>h2{
+   color: #000;
+   text-align: left;
+   margin: .5rem;
+}
+
+.newsletter_fieldset{
+   color:rgb(130, 135, 135);
+}
+
+.newsletter_fieldset>p{
+   text-align: left;
+
+}
+
+
+
+
+@media screen and (min-width:768px) {
+
+   body{
+overflow-x: hidden;   }
+   header>h1{
+      width: 100%;
+      max-width: 100%;
+      margin-bottom: 20px;
+   }
+   .border-1 {
+    width: 85%;
+  }
+
+  .contact-leg>h2 {
+   padding: 2px 60px;
+}
+
+
+   /* inputs */
+
+  
+
+fieldset>input[id=full_name],
+fieldset>input[id=full_email],
+fieldset>input[id=phone],
+fieldset>input[id=enter_city],
+fieldset>input[id=home_address]{
+  width:138% !important;
+  min-width: 100%;
+  display: inline-block;
+  position: relative;
+  margin:auto;
+  margin-left: 60px;
+  right: 50px;
+   
+}
+
+fieldset>select[id=pick_state_origin]{
+   width:147% !important;
+  min-width: 100%;
+  display: inline-block;
+  position: relative;
+  margin:auto;
+  margin-left: 60px;
+  right: 50px;
+}
+fieldset>input[id=zip_code]{
+   display: inline-block;
+  position: relative;
+  margin-left: 100px;
+  right: 145px; 
+  width:25%
+}
+
+input.state{
+   background-color: aqua ;
+   display: none;
+}
+
+
+
+
+fieldset>label[for=full_name],
+fieldset>label[for=full_email],
+fieldset>label[for=phone],
+fieldset>label[for=enter_city],
+fieldset>label[for=home_address],
+fieldset>label[for=pick_state_origin],
+label[for=zip_code]{
+ display: flex;
+ position: relative;
+ text-align: center;
+ margin: auto;
+ align-items: center;
+ overflow-x: scroll;
+ justify-content: center;
+ right:240px;
+ text-align: left;
+ top:60px;
+ margin-right: 20px;
+   
+}
+
+
+
+fieldset>label[for=full_name]{
+   margin-right: 50px;
+}
+fieldset>label[for=enter_city]{
+   margin-right: 90px;
+}
+fieldset>label[for=pick_state_origin]{
+   margin-right: 80px;
+}
+
+
+form.main-form{
+   display: none;
+   margin:auto
+}
+
+.container{
+   margin: auto;
+
+   display: inline-flex;
+   flex-direction: column;
+}
+
+/* input {
+   display: block;
+   width: 60px;
+   margin: 10px auto;
+   padding: 3px;
+ } */
+
+
+
+.media_auto_form{
+   display: flex;
+   justify-content: center;
+}
+   
+
+hr{
+   width: 85%;
+   margin:35px auto
+}
+
+
+.newsletter_fieldset>h2{
+   padding: 2px;
+   margin-left: 40px;
+   margin-bottom: 30px;
+}
+.newsletter_fieldset>p{
+   padding: 2px;
+   margin-left: 40px;
+   margin-bottom: 30px;
+}
+
+/* checkbox labels */
+input[type=checkbox]{
+   padding: 2px;
+   margin-left: 40px;
+}
+input[type=checkbox]+label{
+  padding-right: 300px !important;
+}
+
+.media_auto_form{
+   position: relative;
+   left:10px;
+   
+   width: 100%;
+   margin:0 auto;
+   background-color: yellow !important;
+}
+
+/* radio labels */
+input[type=radio]{
+   padding: 2px;
+   margin-left: 40px;
+}
+input[type=radio]+label{
+  padding-right: 300px !important;
+}
+
+textarea{
+width: 90%;
+}
+button[type=submit]{
+width: 90%;
+}
+
+.copy{
+  margin-right: 20px !important;
+  margin-bottom: 230px !important;
+}
+
+
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>align_flex</title>
+
+   <style>
+      .flex_items{
+         display:flex;
+         flex-direction: row;
+/* background: fuchsia; */
+height:50vh;
+/* padding-left: 50px; */
+
+align-items: center;
+         
+      }
+
+     .flex-item{
+        padding: 10px 5px;
+        background:#ccc;
+        /* margin-left: 30px; */
+        color:red;
+        text-align: center;
+        width: 200px;
+        border-radius: 10px;
+     }
+
+     .flex-item:nth-child(2){
+        flex-shrink: 0;
+       
+     }
+
+
+     .flex-item:nth-child(3){
+        align-self: flex-end;
+        
+     }
+     .flex-item:nth-child(2){
+        align-self: flex-start;
+        
+     }
+     .flex-item:nth-child(1){
+        align-self: flex-end;
+        
+     }
+   </style>
+</head>
+<body>
+  
+   <div class="flex_items">
+     <div class="flex-item">
+        <h2>hi_1</h2>
+     </div>
+     <div class="flex-item">
+        <h2>hi_2</h2>
+     </div>
+     <div class="flex-item">
+        <h2>hi_3</h2>
+     </div>
+     <div class="flex-item">
+        <h2>hi_4</h2>
+     </div>
+   </div>
+</body>
+
+
+
+<script>
+   document.querySelector('body').addEventListener('mousemove' , ()=>{
+      if(innerWidth < 768){
+         document.querySelector('.flex-item:nth-child(2)').style.background='blue'
+      }
+   })
+   document.querySelector('body').addEventListener('mousemove' , ()=>{
+      if(innerWidth > 768){
+         document.querySelector('.flex-item:nth-child(2)').style.background='#f4f4f4'
+      }
+   })
+</script>
+</html>

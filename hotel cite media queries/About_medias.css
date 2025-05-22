@@ -1,0 +1,71 @@
+header h2 {
+  float: none;
+  text-align: center;
+}
+
+header ul {
+  float: none;
+  text-align: center;
+}
+
+header ul li {
+  float: none;
+  font-weight: bolder;
+  text-align: center;
+}
+
+header ul li a {
+  padding: 5px;
+}
+
+#about-us-info h1 {
+  text-align: center;
+}
+
+#about-us-info .info-left p {
+  width: 40%;
+  font-size: 17.5px;
+  text-align: center;
+  margin: auto;
+}
+
+#about-us-info .info-left img {
+  display: block;
+  margin: auto;
+  height: 220px;
+  position: relative;
+  bottom: 2.5px;
+  left: 5px;
+  padding: 1.5em;
+  border-radius: 50%;
+}
+
+#feedbackSection {
+  background-image: url('../test-bg.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px;
+  min-height: 100%;
+  margin: -10px 0;
+}
+
+#feedbackSection h2 {
+  text-align: center;
+  margin: auto;
+  display: block;
+  font-size: 40px;
+  padding-top: 10px;
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#feedbackSection .testimonial {
+  background-color: #f7c08a;
+  border-radius: 6px;
+  min-width: 100%;
+  padding: 10px;
+  overflow: auto;
+  opacity: 0.9;
+  margin: 50px auto;
+}

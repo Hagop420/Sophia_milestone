@@ -1,0 +1,181 @@
+
+body {
+  background-repeat: no-repeat;
+  /* margin-bottom: 2000px; */
+  scroll-behavior: smooth;
+  /* background-color: #333; */
+  
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+.clr {
+  clear: both;
+}
+.bg-dark {
+  /* background-color: #333; */
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background: #333;
+  overflow: auto;
+}
+
+.contain {
+  margin: auto;
+  color: #fff;
+  max-width: 1100px;
+  overflow: auto;
+}
+
+.contain h2 {
+  color: #fff;
+}
+
+header h2 {
+  float: left;
+  padding: 20px 20px;
+  font-size: 30px;
+}
+
+header ul li a:hover,
+header ul li a.current {
+  background: #444;
+  color: #f7c08a;
+}
+
+header ul {
+  float: right;
+  list-style: none;
+}
+
+header ul li {
+  float: left;
+  font-weight: bolder;
+}
+
+header ul li a {
+  display: block;
+  padding: 30px;
+  color: rgb(255, 255, 255);
+}
+
+/* IMPORTANT */
+#navbar li a:hover,
+#navbar li a.current {
+  background: #444 !important;
+  color: #f7c08a !important;
+}
+
+
+
+/* header ul li a.current:visited {
+  background-color: aqua;
+} */
+h1 {
+  font-size: 55.5px;
+  padding: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+h1 span {
+  font-weight: 700;
+  color: #f7c08a;
+}
+
+form {
+  padding: 20px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #000;
+  padding: 10px;
+}
+
+form input {
+  margin: 10px;
+  padding: 10px;
+
+  width: 60%;
+}
+form input:focus {
+  outline-color: #f7c08a;
+}
+
+form textarea:focus {
+  outline-color: #f7c08a;
+}
+
+form button {
+  display: block;
+  padding: 15px;
+  margin: 15px 0;
+  border: 0;
+  background: #333;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+form button:hover {
+  background: #f7c08a;
+}
+
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 30px;
+  text-align: center;
+  background-color: #333;
+}
+
+.box h3 {
+  color: #fff;
+  font-size: 19px;
+}
+
+.box i {
+  margin-bottom: 5px;
+  color: #fff;
+  height: 20%;
+}
+
+.box p {
+  color: #fff;
+  font-size: 20px;
+}
+.copyrightSection {
+  width: 100%;
+  background-color: #444;
+
+  text-align: center;
+  color: #fff;
+}
+footer p {
+  clear: both;
+  padding: 20px;
+}
+
+/* media queries */
+
+/* footer */
+
+/* max with=600px happens when screen is big till 600px hit and min with happens when screen is narrowed to 600px or 600px */
+
+/* @media(max-width:) */
+header ul li.current {
+  background: green;
+}

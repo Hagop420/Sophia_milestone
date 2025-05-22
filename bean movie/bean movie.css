@@ -1,0 +1,76 @@
+body {
+  background: lightskyblue;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+}
+header img {
+  height: 100vh;
+  margin: 70px 0;
+}
+
+header p {
+  margin-top: 28.5rem;
+  font-size: 6rem;
+  padding-left: 65px;
+  color: #f4f4f4;
+  transform: rotate(5deg);
+  font-weight: bolder;
+  font-family: Comic Neue;
+}
+
+footer h3 {
+  float: right;
+  /* padding: 1.5rem; */
+  line-height: 1.7rem;
+  font-size: 2.5rem;
+
+  margin: -48.8px 25.5px;
+  /* flex-direction: column; */
+}
+
+footer p {
+  float: right;
+  margin-top: -10px;
+  font-size: 20px;
+}
+
+aside {
+  background: #fff;
+  min-height: 50vh;
+  margin-top: 50px;
+}
+
+.table-of-contents {
+  min-height: 100vh;
+  font-size: 3rem;
+}
+
+.table-of-contents,
+ul li {
+  font-size: 50px;
+  text-align: center;
+  list-style: none;
+}
+
+.flexbox-left {
+  background-color: #ccc;
+  min-height: 3vh;
+  display: flex;
+}
+
+.flexbox-left img {
+  height: 500px;
+  width: 50%;
+  padding: 2rem;
+}
+
+.flexbox-left p {
+  text-align: center;
+  font-size: 22.5px;
+}
+
+/* smartphone */

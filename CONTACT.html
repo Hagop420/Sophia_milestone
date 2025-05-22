@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- i pad -->
+   <link rel="stylesheet" href="css/Contact.css">
+   <link rel="stylesheet" media="(max-width:768px)" href='./hotel cite media queries/Contact_media.css'>
+
+   <!-- i pad pro -->
+   <link rel="stylesheet" media="screen and (min-width:1024px)" href="./hotel cite media queries/contact 2.css">
+
+   <!-- font awasome -->
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+
+   <!-- logo for title -->
+   <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/857/857762.png">
+   <title>Contact Form | Riverview Haven Hotel</title>
+</head>
+
+<body>
+   <header>
+      <div class="contain">
+         <a href="./Hotel website.html">
+            <h2>HBT</h2>
+         </a>
+
+         <ul>
+
+            <li> <a href="./Hotel website.html"> Home</a></li>
+            <li><a href="./ABOUT.html">About</a></li>
+            <li><a href="./CONTACT.html" class="active">Contact</a></li>
+         </ul>
+      </div>
+   </header>
+
+   <h1 style='color:#000' class='contain'><span>Contact</span> Us</h1>
+
+   <form class='contain' action="process.php">
+      <label for="name">Name</label>
+      <input type="text" name="name" id="name">
+      <label for="last name">Last Name</label>
+      <input type="last name" name="name" id="last name">
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email">
+      <label for="msg">Message</label>
+      <textarea name="msg" id="msg" cols="50" rows="10"></textarea>
+
+
+
+      <button>Submit</button>
+   </form>
+
+
+
+   <!-- Contact section -->
+
+   <section id="features">
+      <div class="box">
+         <i class="fas fa-hotel fa-3x"></i>
+         <h3> Location</h3>
+         <p>50 Main st, Boston MA</p>
+      </div>
+      <div class="box">
+         <i class="fas fa-phone fa-3x"></i>
+         <h3>Phone</h3>
+         <p>818-555-5555</p>
+      </div>
+      <div class="box">
+         <i class="fas fa-envelope fa-3x"></i>
+         <div class="last-ch">
+            <h3>Email</h3>
+            <p>Frontdesk@hotelBT.org</p>
+         </div>
+      </div>
+   </section>
+
+
+
+
+
+
+
+   <footer class='copyrightSection'>
+      <p>Hotel BT &copy; 2019, All Rights Reserved</p>
+   </footer>
+
+   </header>
+
+
+
+   <script>
+      console.log(window.innerWidth);
+
+
+      document.querySelector('a.active').style.background = '#444'
+      document.querySelector('a.active').style.color = '#f7c08a'
+   </script>
+</body>
+
+</html>
